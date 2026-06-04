@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f9d58, #34a853);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.container{
+    width:100%;
+    max-width:600px;
+    background:#145a1f;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 20px rgba(0,0,0,0.3);
+}
+
+h1{
+    text-align:center;
+    color:#b7ffb7;
+    margin-bottom:25px;
+}
+
+label{
+    display:block;
+    color:white;
+    margin-top:15px;
+    margin-bottom:5px;
+    font-size:18px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+}
+
+textarea{
+    resize:vertical;
+}
+
+.gender{
+    display:flex;
+    gap:40px;
+    margin-top:10px;
+    margin-bottom:15px;
+}
+
+.gender label{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    margin:0;
+    color:white;
+    font-size:18px;
+}
+
+.gender input[type="radio"]{
+    width:auto;
+}
+
+button{
+    width:100%;
+    padding:14px;
+    margin-top:20px;
+    border:none;
+    border-radius:8px;
+    background:#8ee68e;
+    color:#0d4b17;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#76d676;
+}

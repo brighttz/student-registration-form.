@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Student Registration Form</h1>
+
+        <form>
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" placeholder="Enter Full Name" required>
+
+            <label for="studentid">Student ID</label>
+            <input type="text" id="studentid" placeholder="Enter Student ID" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter Email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="Enter Phone Number" required>
+
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" required>
+
+            <label for="programme">Programme</label>
+            <select id="programme" required>
+                <option value="">Select Programme</option>
+                <option>Bachelor of Information Technology</option>
+                <option>Bachelor of Computer Science</option>
+                <option>Bachelor of Business Administration</option>
+                <option>Bachelor of Education</option>
+            </select>
+
+            <label>Gender</label>
+            <div class="gender">
+                <label>
+                    <input type="radio" name="gender" value="male">
+                    Male
+                </label>
+
+                <label>
+                    <input type="radio" name="gender" value="female">
+                    Female
+                </label>
+            </div>
+
+            <label for="address">Home Address</label>
+            <textarea id="address" rows="4" placeholder="Enter Home Address"></textarea>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+</body>
+</html>
